@@ -1,4 +1,4 @@
-package com.els.app;
+package app.day2;
 
 public class Four {
 
