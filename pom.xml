@@ -3,4 +3,17 @@
   <groupId>com.ips</groupId>
   <artifactId>top</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+  		<maven.compiler.target>17</maven.compiler.target>
+  		<maven.compiler.source>17</maven.compiler.source>
+  </properties>
+  
+  <dependencies>
+  <dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.24</version>
+  </dependency>
+  </dependencies>
 </project>
