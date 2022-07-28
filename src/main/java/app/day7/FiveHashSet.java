@@ -10,19 +10,19 @@ public class FiveHashSet {
 		
 		Set<String> movies = new HashSet<>();
 		
-		//add
+		//Add
 		movies.add("Batman");
 		movies.add("Top Gun");
 		movies.add("One Piece");
 		System.out.println(movies);
 		
-		//iteration
+		//Iteration
 		Iterator<String> it = movies.iterator();
 		while (it.hasNext()) {
 			System.out.println(it.next());
 		}
 		
-		//remove
+		//Remove
 		movies.remove("Batman");
 		System.out.println(movies);
 
