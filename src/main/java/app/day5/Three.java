@@ -4,15 +4,23 @@ import java.lang.ArithmeticException;
 
 public class Three {
 
-	public static void main(String[] args) throws ArithmeticException {
+	public static void main(String[] args) extends ZeroByException {
 		try {
 			int a = 6/0;
 			System.out.println(a);
 		}
-		catch (Exception e){
-			System.out.println("Exception caught: " + e);
+		catch(ZeroByException e) {
+			throw ZeroByException("Zero error");
 		}
+		
 
 	}
 
+}
+
+class ZeroByException extends Exception {
+	
+	ZeroByException(String message) {
+		super(message);
+	}
 }
